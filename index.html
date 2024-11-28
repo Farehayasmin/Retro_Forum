@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Forum</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+</head>
+<body class="bg-gray-100">
+    <header class="flex justify-between items-center bg-white shadow-md p-4">
+        <!-- <h2 class="text-3xl">Retro-Forum</h2> -->
+        <div class="text-2xl font-bold text-gray-800">
+            ReTro
+        </div>
+
+        <!-- Navigation Icons -->
+        <nav class="flex items-center space-x-4">
+            <!-- Home Icon -->
+            <div class="relative group">
+                <button class="text-gray-600 hover:text-indigo-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l9-7 9 7v11a1 1 0 01-1 1H4a1 1 0 01-1-1V10z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 21V10h6v11" />
+                    </svg>
+                </button>
+                <!-- Tooltip -->
+                <span class="absolute left-1/2 -translate-x-1/2 -translate-y-8 opacity-0 group-hover:opacity-100 transition bg-black text-white text-xs rounded px-2 py-1">
+                    Home
+                </span>
+            </div>
+
+            <!-- Tools Icon -->
+            <div class="relative group">
+                <button class="text-gray-600 hover:text-indigo-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 19.121A1.5 1.5 0 014 18.5V15a2 2 0 011-1.732l6-3.464a2 2 0 012 0l6 3.464A2 2 0 0120 15v3.5a1.5 1.5 0 01-1.121 1.621l-6-3.464a2 2 0 00-2 0l-6 3.464z" />
+                    </svg>
+                </button>
+                <span class="absolute left-1/2 -translate-x-1/2 -translate-y-8 opacity-0 group-hover:opacity-100 transition bg-black text-white text-xs rounded px-2 py-1">
+                    Tools
+                </span>
+            </div>
+
+            <!-- Message Icon -->
+            <div class="relative group">
+                <button class="text-gray-600 hover:text-indigo-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M21 14.5c0 .279-.114.534-.293.707l-5.043 5.043c-.215.215-.517.293-.778.232L8 18.828a4.992 4.992 0 01-1.607-.924c-.93-.825-1.393-1.888-1.393-3.05v-3a2 2 0 00-.697-1.515L2.293 7.293a1 1 0 01.707-1.707H8m6 0h8m-8 0v6m0 0v6m0-6H8" />
+                    </svg>
+                </button>
+                <span class="absolute left-1/2 -translate-x-1/2 -translate-y-8 opacity-0 group-hover:opacity-100 transition bg-black text-white text-xs rounded px-2 py-1">
+                    Messages
+                </span>
+            </div>
+
+            <!-- Sign In Button -->
+            <button class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
+                Sign In
+            </button>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+                <!-- Left Content -->
+                <div>
+                    <h1 class="text-4xl font-bold mb-4">Welcome to the <span class="text-indigo-500">ReTro Forum</span></h1>
+                    <p class="text-lg mb-6">Share your favorite opinion and win an exclusive forum coffee mug!</p>
+                    <div class="relative">
+                        <input type="text" placeholder="Search here anything" class="w-full max-w-md rounded-full px-4 py-3 border-none focus:outline-none">
+                        <button class="absolute top-1/2 right-3 transform -translate-y-1/2 bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700">
+                            Search
+                        </button>
+                    </div>
+                </div>
+    
+                <!-- Right Content -->
+                <div class="bg-white text-gray-800 rounded-lg p-6 shadow-md">
+                    <ul>
+                        <li class="flex justify-between mb-2"><span>Registered Users</span><span>01</span></li>
+                        <li class="flex justify-between mb-2"><span>Forum</span><span>05</span></li>
+                        <li class="flex justify-between mb-2"><span>Topics</span><span>01</span></li>
+                        <li class="flex justify-between"><span>Replies</span><span>01</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
+         <!-- Let's Discuss Section -->
+  <section class="max-w-7xl mx-auto mt-35 px-4">
+    <!-- Title -->
+    <div class="text-center">
+      <h2 class="text-3xl font-bold mb-2">Let’s Discuss</h2>
+      <p class="text-gray-500 text-sm">
+        Yes, you can run unit tests and view the results directly within the app. The <br> testing features allow for a streamlined experience.
+      </p>
+    </div>
+    </section>
+
+    
+  
+        <section>
+            <div id="post-container">
+                
+                
+
+            </div>
+
+        </section>
+        <section class="bg-gray-900 text-white py-12 mr-5 mt-7 ml-5 rounded-lg">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="w-full md:w-1/2">
+                        <h2 class="text-4xl font-bold mb-6">Join Our Forum</h2>
+                        <p class="text-lg mb-6">Share your favorite opinion and win a WP Forum coffee mug! Yes, you can run unit tests and view the results directly within the app.</p>
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Registered Now</button>
+                    </div>
+                    <div class="w-full md:w-1/2 mt-6 md:mt-0">
+                        <img src="images/joinforum.png" alt="" class="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto py-10 px-4">
+            <h2 class="text-3xl font-semibold mb-6 text-center">Latest Posts</h2>
+            <p class="text-center text-gray-500 mb-6">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
+    
+            <div id="posts-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
+                <!-- Posts will be injected here dynamically -->
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-white text-gray-800 py-8 mt-7 mr-5 ml-5 mb-5 shadow-lg rounded-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="text-center">
+                    <h2 class="text-2xl font-bold mb-2 text-center">ReTro</h2>
+                    <p class="text-sm text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots <br> in a piece of classical Latin literature from 45 BC.</p>   
+      
+                </div>
+                <div class="flex justify-center md:justify-end">
+                    <a href="#" class="text-2xl mx-2">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-2xl mx-2">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-2xl mx-2">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-2xl mx-2">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </footer>
+    <script src="js/post.js"></script>
+    <script src="js/latestPost.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+</body>
+</html>
